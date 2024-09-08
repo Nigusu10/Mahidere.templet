@@ -1,0 +1,58 @@
+body{
+  margin:30% 10% 0% 30%;
+  padding:0;
+  background:("Imag.background");
+  background-size:cover;
+  hight:100px;
+  font-family:sans-serif;
+ 
+}
+.box{
+  height:50%;
+  width:53%;
+  background-color:tomato ;
+  position:absolute;
+  color:#fff;
+  transform:translate(-50%, -50%;
+  left:10%;
+  top:20%;
+  padding:70px 30px;
+  border-radius: 100px;
+  h1{
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-size:25px;
+  }
+  .box input{
+    width:50%;
+    margin-bottom:20px;
+  }
+  .box input[type="text"], input[type="password"]{
+    bordor:groove;
+    border-bottom:1px,solid #fff;
+    background-color:transparent;
+    outline:none;
+    height:40px;
+    color:#fff;
+    font-size:15px;
+  }
+  /* Media Queries */
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:absolute;
+    text-align:center;
+    width:100%;
+  }
+
+  header{
+    padding-bottom:20px;
+  }
+
+  #showcase h1{
+    margin-top:40px;
